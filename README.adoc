@@ -1,0 +1,7 @@
+= PJBinaryHeap
+
+image:https://travis-ci.org/Arquisoft/dechatjs_0.svg?branch=master["Build Status", link="https://travis-ci.org/pacojq/PJBinaryHeap"]
+image:https://coveralls.io/repos/github/pacojq/PJBinaryHeap/badge.svg["Coverage status", link="https://coveralls.io/github/pacojq/PJBinaryHeap"]
+
+
+A C# implementation of a binary heap.
