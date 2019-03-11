@@ -1,1 +1,8 @@
 language: csharp
+solution: PJSolution.sln
+install:
+  - nuget restore PJSolution.sln
+  - nuget install NUnit.Console -Version 3.9.0 -OutputDirectory testrunner
+script:
+  - msbuild /p:Configuration=Release PJSolution.sln
+  - mono ./testrunner/NUnit.ConsoleRunner.3.9.0/tools/nunit3-console.exe ./PJBinaryHeap.Tests/bin/Release/PJBinaryHeap.Tests.dll
