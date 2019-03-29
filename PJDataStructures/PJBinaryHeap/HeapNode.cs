@@ -1,6 +1,6 @@
 using System;
 
-namespace PJBinaryHeap
+namespace PJDataStructures.PJBinaryHeap
 {
 	/// <summary>
 	/// Copyright (c) 2019 Paco Juan Quirós

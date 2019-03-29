@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 
-namespace PJBinaryHeap
+namespace PJDataStructures.PJBinaryHeap
 {
 	/// <summary>
 	/// Copyright (c) 2019 Paco Juan Quirós
@@ -105,6 +106,24 @@ namespace PJBinaryHeap
 			Poll();
 			
 			return true;
+		}
+
+
+		public override string ToString()
+		{
+			StringBuilder str = new StringBuilder();
+
+			str.Append("[");
+
+			for (int i = 0; i < _heap.Count - 1; i++)
+				str.Append(_heap[i].Element + ", ");
+			
+			if (_heap.Count > 0)
+				str.Append(_heap[Count-1].Element);
+
+			str.Append("]");
+
+			return str.ToString();
 		}
 
 		#endregion

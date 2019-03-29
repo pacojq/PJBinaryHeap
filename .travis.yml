@@ -1,8 +1,8 @@
 language: csharp
-solution: PJSolution.sln
+solution: PJDataStructures.sln
 install:
-  - nuget restore PJSolution.sln
+  - nuget restore PJDataStructures.sln
   - nuget install NUnit.Console -Version 3.9.0 -OutputDirectory testrunner
 script:
-  - msbuild /p:Configuration=Release PJSolution.sln
-  - mono ./testrunner/NUnit.ConsoleRunner.3.9.0/tools/nunit3-console.exe ./PJBinaryHeap.Tests/bin/Release/PJBinaryHeap.Tests.dll
+  - msbuild /p:Configuration=Release PJDataStructures.sln
+  - mono ./testrunner/NUnit.ConsoleRunner.3.9.0/tools/nunit3-console.exe ./PJDataStructures.Tests/bin/Release/PJDataStructures.Tests.dll
