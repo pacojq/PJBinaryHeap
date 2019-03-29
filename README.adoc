@@ -1,7 +1,5 @@
 = PJBinaryHeap
 
-image:https://api.codacy.com/project/badge/Grade/0ff5c8ad04b44a11a747f2358d9da4a0[link="https://app.codacy.com/app/pacojq/PJBinaryHeap?utm_source=github.com&utm_medium=referral&utm_content=pacojq/PJBinaryHeap&utm_campaign=Badge_Grade_Dashboard"]
-
-image:https://travis-ci.org/pacojq/PJBinaryHeap.svg?branch=master["Build Status", link="https://travis-ci.org/pacojq/PJBinaryHeap"]
+image:https://api.codacy.com/project/badge/Grade/0ff5c8ad04b44a11a747f2358d9da4a0[link="https://app.codacy.com/app/pacojq/PJBinaryHeap?utm_source=github.com&utm_medium=referral&utm_content=pacojq/PJBinaryHeap&utm_campaign=Badge_Grade_Dashboard"] image:https://travis-ci.org/pacojq/PJBinaryHeap.svg?branch=master["Build Status", link="https://travis-ci.org/pacojq/PJBinaryHeap"]
 
 A C# implementation of a binary heap.
