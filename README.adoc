@@ -1,5 +1,5 @@
 = PJDataStructures
 
-image:https://api.codacy.com/project/badge/Grade/0ff5c8ad04b44a11a747f2358d9da4a0[link="https://app.codacy.com/app/pacojq/PJBinaryHeap?utm_source=github.com&utm_medium=referral&utm_content=pacojq/PJBinaryHeap&utm_campaign=Badge_Grade_Dashboard"] image:https://travis-ci.org/pacojq/PJDataStructures.svg?branch=master["Build Status", link="https://travis-ci.org/pacojq/PJDataStructures"]
+image:https://api.codacy.com/project/badge/Grade/89d9b411032c438690a8e61967eafae8["Codacy code quality", link="https://www.codacy.com/app/pacojq/PJDataStructures?utm_source=github.com&utm_medium=referral&utm_content=pacojq/PJDataStructures&utm_campaign=Badge_Grade"] image:https://travis-ci.org/pacojq/PJDataStructures.svg?branch=master["Build Status", link="https://travis-ci.org/pacojq/PJDataStructures"]
 
 A C# implementation of a binary heap.
